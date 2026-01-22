@@ -1,16 +1,115 @@
-# React + Vite
+📚 Book Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Book Tracker application built with React and Tailwind CSS.
+This project allows users to manage their personal reading list by adding, tracking, searching, and categorizing books with a clean and premium user interface.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Netlify:
+https://book-tracker-task.netlify.app/
 
-## React Compiler
+🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React JS
 
-## Expanding the ESLint configuration
+JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS
+
+LocalStorage
+
+Netlify (Deployment)
+
+✨ Features
+
+➕ Add new books (title & author)
+
+📋 List all books
+
+✏️ Update book status (Read / Unread)
+
+🗑️ Delete books with smooth animation
+
+🔍 Search by title or author
+
+🎯 Filter books (All / Read / Unread)
+
+📊 Animated statistics
+
+Total books
+
+Read books
+
+Unread books
+
+🌗 Dark / Light mode (saved in LocalStorage)
+
+💾 Persistent data with LocalStorage
+
+📱 Fully responsive design
+
+🎨 Modern glassmorphism & premium UI
+
+📸 Screenshots
+🌙 Dark Mode
+
+📚 Book List
+
+☀️ Light Mode
+
+ℹ️ Screenshots are located inside the screenshots/ folder.
+
+📂 Project Structure
+src/
+│
+├── components/
+│   ├── BookForm.jsx
+│   ├── BookItem.jsx
+│   ├── BookList.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+📌 How to Run Locally
+# Clone the repository
+git clone https://github.com/USERNAME/book-tracker.git
+
+# Navigate to the project folder
+cd book-tracker
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+🎯 Project Requirements Checklist
+
+✔ ReactJS used
+✔ Tailwind CSS integrated
+✔ CRUD operations (Add, List, Update, Delete)
+✔ TODO-style application logic
+✔ GitHub public repository
+✔ Netlify deployment
+✔ Minimum 3 screenshots included
+
+✅ All assignment requirements are fully met and exceeded.
+
+💡 Future Improvements
+
+📌 Drag & drop book ordering
+
+📈 Reading progress tracking
+
+🗓️ Reading dates & notes
+
+📤 Export book list (PDF / CSV)
+
+👩‍💻 Author
+
+Gözde
+Frontend Developer & UI-focused Engineer
