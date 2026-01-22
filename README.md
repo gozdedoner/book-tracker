@@ -76,7 +76,7 @@ src/
 
 📌 How to Run Locally
 # Clone the repository
-git clone https://github.com/USERNAME/book-tracker.git
+git clone https://github.com/gozdedoner/book-tracker.git
 
 # Navigate to the project folder
 cd book-tracker
