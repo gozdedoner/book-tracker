@@ -1,71 +1,71 @@
-📚 Book Tracker App
+# 📚 Book Tracker App
 
-A modern and responsive Book Tracker application built with React and Tailwind CSS.
-This project allows users to manage their personal reading list by adding, tracking, searching, and categorizing books with a clean and premium user interface.
+A modern, responsive, and user-friendly **Book Tracker application** built with **React** and **Tailwind CSS**.  
+This project allows users to manage their personal reading list by adding, tracking, searching, and categorizing books with a clean and premium UI.
 
-🚀 Live Demo
+---
 
-🔗 Netlify:
+## 🚀 Live Demo
+
+🔗 **Netlify:**  
 https://book-tracker-task.netlify.app/
 
-🛠️ Technologies Used
+---
 
-React JS
+## 🛠️ Technologies Used
 
-JavaScript (ES6+)
+- **React JS**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **LocalStorage**
+- **Netlify (Deployment)**
 
-Tailwind CSS
+---
 
-LocalStorage
+## ✨ Features
 
-Netlify (Deployment)
+- ➕ Add new books (title & author)
+- 📋 List all books
+- ✏️ Update book status (Read / Unread)
+- 🗑️ Delete books with smooth animation
+- 🔍 Search by title or author
+- 🎯 Filter books (All / Read / Unread)
 
-✨ Features
+### 📊 Animated Statistics
+- Total books
+- Read books
+- Unread books
 
-➕ Add new books (title & author)
+- 🌗 Dark / Light mode (saved in LocalStorage)
+- 💾 Persistent data storage with LocalStorage
+- 📱 Fully responsive design (mobile-first)
+- 🎨 Modern glassmorphism & premium UI
 
-📋 List all books
+---
 
-✏️ Update book status (Read / Unread)
+## 📸 Screenshots
 
-🗑️ Delete books with smooth animation
+### 🌙 Dark Mode
+![Dark Mode](./screenshots/Booktracker1.png)
 
-🔍 Search by title or author
+### 📚 Book List
+![Book List](./screenshots/booktracker2.png)
 
-🎯 Filter books (All / Read / Unread)
+### ☀️ Light Mode
+![Light Mode](./screenshots/booktracker3.png)
 
-📊 Animated statistics
+ℹ️ Screenshots are located inside the `screenshots/` folder.
 
-Total books
+---
 
-Read books
+## 📂 Project Structure
 
-Unread books
 
-🌗 Dark / Light mode (saved in LocalStorage)
-
-💾 Persistent data with LocalStorage
-
-📱 Fully responsive design
-
-🎨 Modern glassmorphism & premium UI
-
-📸 Screenshots
-🌙 Dark Mode
-
-📚 Book List
-
-☀️ Light Mode
-
-ℹ️ Screenshots are located inside the screenshots/ folder.
-
-📂 Project Structure
 src/
-│
 ├── components/
 │   ├── BookForm.jsx
 │   ├── BookItem.jsx
-│   ├── BookList.jsx
+│   └── BookList.jsx
 │
 ├── pages/
 │   └── Home.jsx
@@ -73,7 +73,6 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-
 📌 How to Run Locally
 # Clone the repository
 git clone https://github.com/gozdedoner/book-tracker.git
@@ -86,21 +85,21 @@ npm install
 
 # Start the development server
 npm run dev
+The application will be available at:
+http://localhost:5173
 
 🎯 Project Requirements Checklist
-
 ✔ ReactJS used
 ✔ Tailwind CSS integrated
 ✔ CRUD operations (Add, List, Update, Delete)
 ✔ TODO-style application logic
-✔ GitHub public repository
+✔ Public GitHub repository
 ✔ Netlify deployment
 ✔ Minimum 3 screenshots included
 
 ✅ All assignment requirements are fully met and exceeded.
 
 💡 Future Improvements
-
 📌 Drag & drop book ordering
 
 📈 Reading progress tracking
@@ -110,6 +109,6 @@ npm run dev
 📤 Export book list (PDF / CSV)
 
 👩‍💻 Author
-
 Gözde
 Frontend Developer & UI-focused Engineer
+GitHub: https://github.com/gozdedoner
